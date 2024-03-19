@@ -1,0 +1,16 @@
+{
+  "utilisateurs": [
+    {
+      "id": "utilisateur1",
+      "mot_de_passe": "mdp123"
+    },
+    {
+      "id": "utilisateur2",
+      "mot_de_passe": "pass456"
+    },
+    {
+      "id": "utilisateur3",
+      "mot_de_passe": "secret789"
+    }
+  ]
+}

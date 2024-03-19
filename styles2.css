@@ -1,0 +1,25 @@
+.center-container {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement les éléments dans le conteneur */
+    align-items: center; /* Centrer verticalement les éléments dans le conteneur */
+    height: 100vh; /* Centrer verticalement le conteneur sur toute la hauteur de la fenêtre */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Ajouter un peu d'espace entre les groupes de champs */
+}
+
+select {
+    width: 150px; /* Largeur des menus déroulants */
+    padding: 10px; /* Ajouter un peu d'espace autour des options */
+    border: 1px solid #ccc; /* Ajouter une bordure */
+    border-radius: 5px; /* Ajouter un peu de bordure arrondie */
+}
+
+select option {
+    padding: 10px; /* Ajouter un peu d'espace à l'intérieur des options */
+}
+
+select:focus {
+    outline: none; /* Supprimer la mise en évidence lorsque le menu déroulant est sélectionné */
+}
